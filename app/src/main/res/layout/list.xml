@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingLeft="15dp">
+
+
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/mag"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_toRightOf="@+id/magnitude"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/place"/>
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_toRightOf="@+id/location"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/date"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_toRightOf="@+id/date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/time"/>
+
+</RelativeLayout>

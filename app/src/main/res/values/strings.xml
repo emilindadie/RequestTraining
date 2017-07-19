@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Udacity</string>
+    <string name="mag">mag</string>
+    <string name="place">Place</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="nombre">Nombre</string>
+    <string name="famille">Famille</string>
+    <string name="couleur">Couleur</string>
+    <string name="phrase">Phrase</string>
+    <string name="nextActivity">Activité suivante</string>
+</resources>

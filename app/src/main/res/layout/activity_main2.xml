@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emili.udacity.Main2Activity">
+
+
+        <TextView
+            android:id="@+id/nombre"
+            android:background="@color/couleur1"
+            style="@style/CategoryStyle"
+            android:text="@string/nombre"
+         />
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="88dp"
+            android:id="@+id/famille"
+            android:background="@color/couleur2"
+            style="@style/CategoryStyle"
+            android:text="@string/famille"
+            />
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="176dp"
+            android:id="@+id/couleur"
+            android:background="@color/couleur3"
+            style="@style/CategoryStyle"
+            android:text="@string/couleur"
+            />
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="264dp"
+            android:id="@+id/phrase"
+            android:background="@color/couleur4"
+            style="@style/CategoryStyle"
+            android:text="@string/phrase"
+            />
+
+
+</android.support.constraint.ConstraintLayout>
